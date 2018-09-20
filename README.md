@@ -7,7 +7,7 @@
 * git clone git@github.com:goodjun/ionic-jpush-example.git
 * cd ionic-jpush-example
 * npm i
-* ionic-jpush-example/config.xml 和 ionic-jpush-example/package.json 中的your_jpush_appkey更换为自己的极光appkey
+* ionic-jpush-example/config.xml 和 ionic-jpush-example/package.json中的your_jpush_appkey更换为自己的极光appkey
 * cordova platform rm ios
 * cordova platform add ios
 * ionic build ios
