@@ -40,6 +40,8 @@ export class MyApp {
                 console.log('Get Registration ID Error');
             })
 
+            jpush.setDebugMode(true);
+
         });
     }
 }
