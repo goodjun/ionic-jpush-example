@@ -5,13 +5,30 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
+  <h2>JPpush test</h2>
+
   <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
+    <button ion-button full (click)="stopPush()">Stop Push</button>
   </p>
+
   <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
+    <button ion-button full (click)="resumePush()">Resume Push</button>
   </p>
+
+  <p>
+    <button ion-button full (click)="setBadge()">Set Badge 99</button>
+  </p>
+
+  <p>
+    <button ion-button full (click)="resetBadge()">Reset Badge</button>
+  </p>
+
+  <p>
+    <button ion-button full (click)="clearAllNotification()">Clear All Notification</button>
+  </p>
+
+  <p>
+    <button ion-button full (click)="clearAllNotification()">Add Local Notification</button>
+  </p>
+
 </ion-content>
